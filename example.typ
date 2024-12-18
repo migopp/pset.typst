@@ -1,5 +1,5 @@
 #import "lib/lib.typ": *
-#prologue(
+#title(
     title: "Solved Examples 1",
     author: "Michael Goppert (mtg2447)",
     class: "CS 331H",
@@ -42,6 +42,6 @@ woman.
 ]
 ]
 
-#epilogue(
+#collaborators(
     collaborators: "A, B, ...",
 )

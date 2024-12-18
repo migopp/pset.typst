@@ -1,9 +1,9 @@
 // lib.typ
 
-#import "prologue.typ": *
-#import "epilogue.typ": *
+#import "title.typ": *
 #import "shorthands.typ": *
 #import "environments.typ": *
+#import "collaborators.typ": *
 
 // If you add any more files to the lib, make sure to import them here...
 //

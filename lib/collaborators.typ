@@ -1,6 +1,6 @@
-// epilogue.typ
+// collaborators.typ
 
-#let epilogue(
+#let collaborators(
     collaborators: "none",
 ) = {
     align(left)[

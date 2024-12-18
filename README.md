@@ -24,7 +24,7 @@ There are various components that ship with this template. In this section, I'll
 
 The idea of this template is to be minimal and customizable. So, familiarizing yourself with these components may be useful.
 
-### Prologue
+### Title
 
 This is the title section (heading) of the document. It contains the following fields by default:
 
@@ -33,10 +33,10 @@ This is the title section (heading) of the document. It contains the following f
 - `class`
 - `semester`
 
-The names are quite self-explanatory. You can place a prologue like such:
+The names are quite self-explanatory. You can place a title like such:
 
 ```typst
-#prologue(
+#title(
     title: "Solved Examples 1",
     author: "Michael Goppert (mtg2447)",
     class: "CS 331H",
@@ -46,21 +46,7 @@ The names are quite self-explanatory. You can place a prologue like such:
 
 All fields default to nil if you don't define them. It's probably best to define them.
 
-If you want to customize the fields or how this looks, go to `lib/prologue.typ`.
-
-### Epilogue
-
-This is an ending section. It contains only the `collaborators` field by default. This is just a string listing of all collaborators on the pset.
-
-You can place an epilogue like:
-
-```typst
-#epilogue(
-    collaborators: "A, B, ...",
-)
-```
-
-If you want to customize the fields or how this looks, go to `lib/epilogue.typ`.
+If you want to customize the fields or how this looks, go to `lib/title.typ`.
 
 ### Shorthands
 
@@ -137,6 +123,20 @@ This indicates a subpart of a question. The idea is the same as `q`. Put the ans
     ]
 ]
 ```
+
+### Collaborators
+
+This is just a string listing of all collaborators on the pset.
+
+You can place a collaborators section like:
+
+```typst
+#collaborators(
+    collaborators: "A, B, ...",
+)
+```
+
+If you want to customize the fields or how this looks, go to `lib/collaborators.typ`.
 
 ## Customization
 

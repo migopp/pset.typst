@@ -1,4 +1,4 @@
-TARGET_DIR 	:= target
+TARGET_DIR 	:= .
 SRC_DIR 	:= .
 SRC_FILES 	:= $(wildcard $(SRC_DIR)/*.typ)
 PDF_FILES 	:= $(patsubst $(SRC_DIR)/%.typ,$(TARGET_DIR)/%.pdf,$(SRC_FILES))
@@ -12,4 +12,4 @@ $(TARGET_DIR):
 	mkdir -p $(TARGET_DIR)
 
 clean:
-	rm -rf $(TARGET_DIR)
+	rm -rf $(TARGET_DIR)/*.pdf

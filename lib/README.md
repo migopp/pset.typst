@@ -9,10 +9,10 @@ It looks like a lot of code, but it's really not that complicated. I've decided 
 There is a `lib.typ` file. That is what you will include in your document. What's actually in there?
 
 ```typst
-#import "prologue.typ": *
-#import "epilogue.typ": *
+#import "title.typ": *
 #import "shorthands.typ": *
 #import "environments.typ": *
+#import "collaborators.typ": *
 
 // If you add any more files to the lib, make sure to import them here...
 //
@@ -25,11 +25,11 @@ It just includes some other files. _These_ are the files that contain code that 
 ```
 lib
 ├── README.md
+├── collaborators.typ
 ├── environments.typ
-├── epilogue.typ
 ├── lib.typ
-├── prologue.typ
-└── shorthands.typ
+├── shorthands.typ
+└── title.typ
 ```
 
 ## Customization
