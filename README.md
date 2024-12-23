@@ -2,7 +2,7 @@
 
 A simple, customizable typst problem set template.
 
-<embed src="./example.pdf" width="100%" type="application/pdf" style="width: 100%;"></embed>
+<img width="1512" alt="Screenshot 2024-12-22 at 10 44 24 PM" src="https://github.com/user-attachments/assets/723801ea-bc90-4ba4-a311-d122a5710ea4" />
 
 ## Setup
 
