@@ -2,6 +2,8 @@
 
 A simple, customizable typst problem set template.
 
+<embed src="./example.pdf" width="100%" type="application/pdf" style="width: 100%;"></embed>
+
 ## Setup
 
 Clone this repository.
