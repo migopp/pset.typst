@@ -1,6 +1,6 @@
 // shorthands.typ
 
-#let qed = [#v(0.2em)#h(1fr)$square.big$]
+#let qed = [#linebreak()#h(1fr)$square.big$]
 
 // e.g.,
 // #let wlog = "without loss of generality"
